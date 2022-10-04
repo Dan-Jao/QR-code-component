@@ -1,14 +1,16 @@
 body {
+    min-height: 100vh;
     background-color: hsl(212, 45%, 89%);
     font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     background-color: hsl(0, 0%, 100%);
     width: 300px;
-    margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 20px;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
